@@ -1,6 +1,5 @@
 
 #include <stdio.h>
-
 int main() {
 
     int budget, numGuests, foodCostPerGuest, decorationCost, musicCost, extraExpenses, totalCost, totalFoodCost;
