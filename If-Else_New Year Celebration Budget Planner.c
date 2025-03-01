@@ -1,7 +1,6 @@
 
 #include <stdio.h>
 int main() {
-
     int budget, numGuests, foodCostPerGuest, decorationCost, musicCost, extraExpenses, totalCost, totalFoodCost;
     scanf("%d\n%d\n%d\n%d\n%d\n%d", &budget, &numGuests, &foodCostPerGuest, &decorationCost, &musicCost, &extraExpenses);
     totalCost = numGuests*foodCostPerGuest + decorationCost + musicCost + extraExpenses;
